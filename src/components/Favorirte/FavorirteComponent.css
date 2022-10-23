@@ -1,0 +1,20 @@
+.favorirte-component {
+  min-height: calc(100vh - 150px);
+}
+.favorirte-component-no-items {
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.favorirte-component-title {
+  text-align: center;
+  margin: 10px 0;
+}
+@media (max-width: 468px) {
+  .favorirte-component-no-items {
+    font-size: 20px;
+  }
+}

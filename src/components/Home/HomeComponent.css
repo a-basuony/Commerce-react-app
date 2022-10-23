@@ -1,0 +1,32 @@
+.home {
+  height: calc(100vh - 110px);
+  background-image: url("https://st-adidas-egy.mncdn.com/content/uploads/homepage/2022/May/ivp-launch/mh-d.webp");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.home-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 50px;
+}
+.home-title span {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+.home-title p {
+  font-size: 30px;
+}
+.home-btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  top: 15px;
+}

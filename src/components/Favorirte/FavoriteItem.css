@@ -1,0 +1,35 @@
+.favorite-item {
+  width: 450px;
+  padding: 10px;
+  display: flex;
+  margin: 15px auto;
+  align-items: center;
+  border: 2px solid black;
+}
+.favorite-item img {
+  width: 80px;
+  border-radius: 7px;
+}
+.favorite-item h1 {
+  font-size: 25px;
+  margin: 5px 0;
+}
+.favorite-item-btn {
+  padding: 7px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.favorite-item-content {
+  margin: 0 0 0 10px;
+}
+@media (max-width: 468px) {
+  .favorite-item {
+    width: 300px;
+    padding: 5px;
+  }
+  .favorite-item h1 {
+    font-size: 17px;
+    margin: 5px 0;
+  }
+}
